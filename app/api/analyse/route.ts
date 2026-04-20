@@ -27,9 +27,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         {
           error:
-            "HF_TOKEN environment variable is not set. " +
-            "Create a .env.local file with HF_TOKEN=hf_... " +
-            "(get a token at https://huggingface.co/settings/tokens)",
+            "HF_TOKEN environment variable is not set. "
         },
         { status: 500 }
       );
