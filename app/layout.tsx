@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MedGemma Dental Analysis",
-  description: "AI-powered dental image analysis using MedGemma",
+  title: "AI Dental Analysis",
+  description: "AI-powered dental image analysis using MedGemma 1.5 4b",
 };
 
 export default function RootLayout({
